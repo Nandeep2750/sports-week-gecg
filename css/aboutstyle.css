@@ -1,0 +1,496 @@
+@font-face{
+  font-family: 'GOTHIC';
+  src: url("../font/GOTHIC.TTF");
+}
+
+@font-face{
+  font-family: 'GOTHICB';
+  src: url("../font/GOTHICB.TTF");
+}
+
+body {
+  margin: 0;
+  font-family: 'GOTHIC', Helvetica, sans-serif;
+  padding: 0px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.page{
+  margin: 0px; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.top{
+  background-image: url("../img/about/aboutBack.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+
+
+.topnav {
+  padding: 1%;
+  text-align: right;
+  width: 100%;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.topnav a{
+  color:#ffffff;
+  text-align: center;
+  margin-right: 1%; 
+  padding: 166px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(0, 0, 0, 0.11);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.199);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@font-face{
+  font-family: 'facon';
+  src: url("../font/Facon.ttf");
+}
+
+.head{
+  font-family: facon;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  color: #ffffff;
+  text-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.705);
+}
+
+.spHeading{
+  width: 70%;
+  float: left;
+  padding: 50px;
+  padding-top: 70px; 
+  overflow: hidden; 
+}
+
+.head .spHeading .headHeading:nth-child(1){
+  padding: 50px;
+  font-size: 55pt;
+  text-align: center;
+}
+
+.head .spHeading .headHeading:nth-child(2){
+  padding-top: 0px;
+  font-size: 50pt;
+  position: relative;
+  top: 25px;
+}
+
+.spIcon{
+  width: 30%;
+  float: left;
+  padding-top: 70px;;
+  overflow: hidden;
+
+}
+
+.spIcon .headIcon{
+  margin: auto;
+  position: relative;
+  left: 110px;
+}
+
+.headIcon:nth-child(1){
+  margin: auto;
+}
+.headIcon:nth-child(2){
+  margin: auto;
+}
+
+
+.main{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.head2{
+  overflow: hidden;
+  margin-top: 50pt;
+  margin-left: 10pt;
+  margin-bottom: 20pt;
+  color: #ff0000ee;
+  font-family: facon;
+  text-shadow: 5px 5px 10px hsla(359, 68%, 56%, 0.7);
+}
+
+.head2 h1{
+  font-size: 50pt;
+}
+
+
+
+/* code for rotate 2 image */
+/* .gmsListBack{
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  margin: auto;
+  margin-bottom: 50pt;
+  overflow: visible;
+}
+
+.gmsListFront{
+  width: 300px;
+  height: 300px;
+}
+
+.parent{
+  position: relative;
+  top: 20px;
+  left: 0px;
+}
+
+.img1{
+  position: relative;
+  top: 0px;
+  transform: rotate(-9deg);
+  left: 0px;
+}
+.img2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+ */
+
+.teamMember{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.teamImage{
+  width: 80%;
+  margin: auto;
+}
+
+.img{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.teamName{
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: GOTHIC;
+  text-align: left;
+}
+
+.teamName h5{
+  font-family: GOTHICB;
+  font-size: 190%;
+}
+
+.teamName h6{
+  font-size: 140%;
+}
+
+.prize{
+  font-family: 'GOTHIC';
+  padding: 50px;
+  background: url("../img/about/prizeBack.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 150%;
+  color: #ffffff;
+}
+
+.prize h3{
+  font-family: GOTHICB;
+}
+
+.prize ol{
+  margin: 15pt;
+  margin-top: 25pt;
+}
+
+.prize ol li{
+  margin-bottom: 25px; 
+}
+
+.lastSportsWeek{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 100px; 
+}
+
+.lastImgDiv{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.lastImg{
+  width: 100%;
+  overflow: hidden;
+}
+
+.competition{
+  font-family: GOTHIC;
+  background-color: #616161;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 100%;
+  overflow: hidden;
+}
+.competition h3{
+  font-family: GOTHICB;
+  font-size: 120%;
+  padding-left: 13px;
+  text-decoration: underline;
+}
+
+.eventList{
+  margin-top: 10px; 
+  padding: 5px;
+}
+
+.eventList ul li{
+  padding: 10px;
+}
+
+.paddleft{
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+
+.bottomMid{
+  padding-left: 60px;
+}
+
+.paddLine{
+  padding: 10px;
+}
+
+.bottomRight{
+  margin-top: 15px; 
+}
+.gecgIcon{
+  margin-top: 15px;
+}
+.devlope{
+  padding-top: 15px;
+  overflow: hidden;
+  font-family: GOTHICB;
+}
+
+
+
+
+
+/* Media Query starts */
+
+@media only screen and (max-width: 570px) and (min-width: 320px) {
+
+  .top{
+    height: 475px;
+  }
+
+  .topnav {
+    padding: 2%;
+    overflow: hidden;
+  }
+  
+  .head{
+    text-shadow: 6px 6px 5px hsla(0, 0%, 0%, 0.705);
+  }
+
+  .spHeading{
+    width: 100%;
+    float: left;
+    overflow: hidden; 
+    padding: 0px;
+    padding-top: 50px; 
+  }
+  .headHeading{
+    padding: 0px;
+  }
+
+  .head .spHeading .headHeading:nth-child(1){
+    padding: 0px;
+    padding-left: 30px;
+    font-size: 30pt;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .head .spHeading .headHeading:nth-child(2){
+    padding-top: 0px;
+    font-size: 20pt;
+    position: relative;
+    top: -10px;
+    left : 67%;
+  }
+
+
+  .spIcon{
+    width: 100%;
+    float: left;
+    padding-top: 70px;;
+    overflow: hidden;
+  
+  }
+  
+  .main{
+    padding-top: -50%;
+    position: relative;
+  }
+  
+  .head2{
+    overflow: hidden;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .head2 h1{
+    font-size: 25pt;
+  }
+
+  .teamMember{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .teamImage{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .img{
+    width: 100%;
+  }
+  
+  .teamName{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .teamName h5{
+    font-family: GOTHICB;
+    font-size: 130%;
+  }
+  
+  .teamName h6{
+    font-size: 100%;
+  }
+
+  .prize{
+    overflow: hidden;
+    padding: 2px;
+    font-size: 90%;
+  }
+
+  .prize ol{
+    margin: 5pt;
+    margin-top: 10pt;
+  }
+  .prize ol li{
+    margin-bottom: 10px; 
+  }
+
+  .competition{
+    padding: 7px;
+    font-size: 100%;
+    overflow: hidden;
+  }
+  
+  .eventList{
+    margin-top: 3px; 
+    padding: 1px;
+    overflow: hidden;
+  }
+  
+  .eventList ul li{
+    padding: 2px;
+  }
+  
+  .bottomMid{
+    padding-left: 10px;
+  }
+  
+  .bottomMid h3{
+    padding-left: 0px;
+  }
+
+  .paddleft{
+    position: relative;
+    top: 5px;
+    left: 10px;
+  }
+  
+  
+  .paddLine{
+    padding: 2px;
+  }
+  
+  .bottomRight{
+    margin-top: 15px; 
+  }
+  .gecgIcon{
+    margin-top: 15px;
+  }
+}  
+
+/* Media query ends */
+
+
+
+/* @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+  float: right;
+  display: block;
+  margin: 0px;
+  padding: 5px 25px;
+  margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .head2 h1{
+    font-size: 20pt;
+  }
+}   */
